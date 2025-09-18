@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<h2>User Registration</h2>
+<form method="post" action="/api/auth/register">
+    Username: <input type="text" name="username" required><br><br>
+    Password: <input type="password" name="password" required><br><br>
+    Role:
+    <select name="role">
+        <option value="ROLE_EMPLOYEE">Employee</option>
+        <option value="ROLE_ADMIN">Admin</option>
+    </select><br><br>
+    <button type="submit">Register</button>
+</form>
+<p><a href="/index.html">Back to Login</a></p>
+</body>
+</html>
