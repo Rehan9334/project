@@ -1,0 +1,5 @@
+#!/bin/sh
+# Placeholder mvnw script. To use the Maven wrapper you need the maven-wrapper.jar in .mvn/wrapper/.
+# If you don't have it, install Maven or ask the author to include the wrapper jar.
+mvn_command="mvn"
+exec "$mvn_command" "$@"
